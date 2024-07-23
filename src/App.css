@@ -1,0 +1,20 @@
+.dark\:bg-black:where(.dark, .dark *) {
+    --tw-bg-opacity: 1;
+    background-color: rgb(0 0 0 / var(--tw-bg-opacity)) !important;
+}
+::-webkit-scrollbar {
+    width: 10px;
+    /* background-color: azure; */
+}
+::-webkit-scrollbar-track {
+    background: #f1f1f1;
+}
+::-webkit-scrollbar-thumb {
+    background: #888;
+    border-radius: 5px;
+}
+ 
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+    background: #555;
+}
